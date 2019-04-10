@@ -1,0 +1,17 @@
+The config.ini file contains all the properties of the vehicle and the time line
+
+The vehicles should be defined at 2. Example definitions are given.
+
+'start_sim' starts the simulation.
+
+'sim.cpp' contains the terminal version.
+'final.cpp' contains the opengl version.
+ 
+
+The code only needs to be compiled and runned.
+
+Compile command line for terminal version : "g++ sim.cpp"
+Run command line for terminal version : "./a.out"
+
+Compile command line for opengl version : "g++ final.cpp -lGL -lGLU -lglut"
+Run command line for opengl verison : "./a.out"
